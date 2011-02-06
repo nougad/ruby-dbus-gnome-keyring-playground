@@ -1,0 +1,16 @@
+Playground for some ruby - dbus - gnome-keyring - stuff
+
+Sorry for bad coding style - it's only some personal playground.
+
+Feel free to contact me.
+
+
+IMPORTANT:
+Required to apply introspection.path to gnome-keyring introspection files usually located at /usr/share/gnome-keyring/introspect/
+
+If it's necessary to include rubygems manually run ruby with "-r rubygems"
+
+Encrypted transfer of secret (encrypted.rb) does not work. Tried different Diffie Hellman implementations (dh.rb, dh-openssl.rb, dhkeyexchange gem) and different AES implementations (openssl and ruby-aes gem) but without any success
+
+DEPENDENCIES:
+* ruby-dbus gem (tested with 0.6)

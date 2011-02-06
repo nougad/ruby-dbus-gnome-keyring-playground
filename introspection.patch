@@ -1,0 +1,25 @@
+diff -r ./introspect-collection.xml /tmp/introspect//introspect-collection.xml
+28c28
+< 	<interface name="org.freedesktop.Secret.Collection">
+---
+> 	<interface name="org.freedesktop.Secrets.Collection">
+diff -r ./introspect-item.xml /tmp/introspect//introspect-item.xml
+28c28
+< 	<interface name="org.freedesktop.Secret.Item">
+---
+> 	<interface name="org.freedesktop.Secrets.Item">
+diff -r ./introspect-prompt.xml /tmp/introspect//introspect-prompt.xml
+11c11
+< 	<interface name="org.freedesktop.Secret.Prompt">
+---
+> 	<interface name="org.freedesktop.Secrets.Prompt">
+diff -r ./introspect-service.xml /tmp/introspect//introspect-service.xml
+28c28
+< 	<interface name="org.freedesktop.Secret.Service">
+---
+> 	<interface name="org.freedesktop.Secrets.Service">
+diff -r ./introspect-session.xml /tmp/introspect//introspect-session.xml
+11c11
+< 	<interface name="org.freedesktop.Secret.Session">
+---
+> 	<interface name="org.freedesktop.Secrets.Session">
