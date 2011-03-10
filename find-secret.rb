@@ -10,8 +10,6 @@ ARGV.each do |x|
   search << [key, value]
 end
 
-File.open("/tmp/ddd", "a") do |f| f.puts ARGV.inspect end
-
 bus = DBus::SessionBus.instance
 service = bus.service("org.freedesktop.secrets")
 secret = service.object("/org/freedesktop/secrets")
